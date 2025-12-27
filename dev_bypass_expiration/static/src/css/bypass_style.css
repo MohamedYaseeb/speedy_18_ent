@@ -1,0 +1,9 @@
+/* Hide the expiration banner in Odoo 17/18/19 */
+.o_database_expiration_panel {
+    display: none !important;
+}
+
+/* Hide the 'Registration' reminder in settings */
+.o_enterprise_label, .oe_bundle_enterprise {
+    display: none !important;
+}
